@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Job = require("../models/job"); // Adjust the path if needed
+const Job = require("../models/Job"); // Adjust the path if needed
 
 // Create a new job
 router.post("/", async (req, res) => {
